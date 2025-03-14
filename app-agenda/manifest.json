@@ -1,0 +1,47 @@
+{
+    "name": "Diafer",
+    "short_name": "Diafer",
+    "description": "Agenda e Notas - Diafer",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1e1e1e",
+    "theme_color": "#64b5f6",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Agenda",
+            "short_name": "Agenda",
+            "description": "Abrir agenda",
+            "url": "/?section=agenda",
+            "icons": [{ "src": "icon-192x192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Notas",
+            "short_name": "Notas",
+            "description": "Abrir notas",
+            "url": "/?section=notas",
+            "icons": [{ "src": "icon-192x192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Cadastro",
+            "short_name": "Cadastro",
+            "description": "Abrir cadastro",
+            "url": "/?section=cadastro",
+            "icons": [{ "src": "icon-192x192.png", "sizes": "192x192" }]
+        }
+    ]
+} 

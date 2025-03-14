@@ -1,0 +1,30 @@
+{
+  "name": "diafer",
+  "version": "1.0.0",
+  "description": "Agenda e Notas - Diafer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.diafer.app",
+    "productName": "Diafer",
+    "win": {
+      "target": "nsis",
+      "icon": "icon-192x192.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+} 
